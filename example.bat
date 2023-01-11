@@ -1,1 +1,2 @@
-robocopy "./" "%AppData%\\Microsoft\\Windows\\Start Menu\\Programs\\Startup" program.exe /MOVE | exit
+robocopy "./" "C:\Users\muham\AppData\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup" program.exe /MOVE
+exit
